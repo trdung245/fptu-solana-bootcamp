@@ -13,7 +13,7 @@ import {
   const connection = new Connection(endpoint, "confirmed");
 
   const publicKey = new PublicKey(
-    "J5j59egmYt6bXTBjKsKdXWRvkgrxZ9byMnAFzTCejqDa"
+    "H2emDWkhB8reDXySZmcri5VgsUyKpE2XnyXbE97MzNrN"
   );
 
   const balanceInLamports = await connection.getBalance(publicKey);

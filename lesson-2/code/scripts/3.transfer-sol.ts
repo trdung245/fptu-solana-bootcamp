@@ -18,7 +18,7 @@ dotenv.config();
 (async () => {
   const endpoint = clusterApiUrl("devnet");
   const connection = new Connection(endpoint, "confirmed");
-  const LAMPORTS_TO_SEND = 5000;
+  const LAMPORTS_TO_SEND = 7000;
 
   const senderKeypair = loadKeypairFromFile(
     process.env.LOCAL_PAYER_JSON_ABSPATH as string
