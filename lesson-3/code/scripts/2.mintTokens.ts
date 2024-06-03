@@ -66,7 +66,7 @@ import { explorerURL, loadPublicKeysFromFile } from "@/lib/helpers";
    * - if decimals=6, amount=100_000 => actual tokens minted == 0.10
    */
 
-  const amountOfTokensToMint = 1_000_000; // 1 * 10**6
+  const amountOfTokensToMint = 100000000; // 1 * 10**6
 
   // mint some token to the "ata"
   console.log("Minting some tokens to the ata...");

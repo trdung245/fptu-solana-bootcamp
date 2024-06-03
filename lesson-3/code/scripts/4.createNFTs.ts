@@ -64,7 +64,7 @@ import { explorerURL, printConsoleSeparator } from "@/lib/helpers";
     useNewMint: tokenMint,
 
     // `sellerFeeBasisPoints` is the royalty that you can define on nft
-    sellerFeeBasisPoints: 500, // Represents 5.00%.
+    sellerFeeBasisPoints: 1000, // Represents 5.00%.
 
     //
     isMutable: true,
