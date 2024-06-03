@@ -35,7 +35,7 @@ dotenv.config();
   }
 
   const receiverPublicKey = new PublicKey(
-    "5AHKzmDcjeAAnafTivi5u7dWYw3jUQh2VBRDzSd9ztVr"
+    "63EEC9FfGyksm7PkVC6z8uAmqozbQcTzbkWJNsgqjkFs"
   );
 
   const transaction = new Transaction();
